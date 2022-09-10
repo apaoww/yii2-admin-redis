@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\admin\models\form;
+namespace apaoww\AdminRedis\models\form;
 
 use mdm\admin\components\UserStatus;
 use mdm\admin\models\User;

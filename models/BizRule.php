@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\admin\models;
+namespace apaoww\AdminRedis\models;
 
 use Yii;
 use yii\rbac\Rule;

@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\admin\components;
+namespace apaoww\AdminRedis\components;
 
 use mdm\admin\models\Route;
 use Yii;

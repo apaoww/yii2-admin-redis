@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "apaoww\\yii2-admin-redis\\": ""
+            "apaoww\\AdminRedis\\": ""
         }
     },
     "extra": {

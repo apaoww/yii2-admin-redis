@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\admin;
+namespace apaoww\AdminRedis;
 
 use Yii;
 use yii\helpers\Inflector;

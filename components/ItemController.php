@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\admin\components;
+namespace apaoww\AdminRedis\components;
 
 use Yii;
 use mdm\admin\models\AuthItem;

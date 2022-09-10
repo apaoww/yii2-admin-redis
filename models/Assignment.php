@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\admin\models;
+namespace apaoww\AdminRedis\models;
 
 use mdm\admin\components\Configs;
 use mdm\admin\components\Helper;

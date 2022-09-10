@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\admin\components;
+namespace apaoww\AdminRedis\components;
 
 /**
  * DbManager represents an authorization manager that stores authorization information in database.

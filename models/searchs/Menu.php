@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\admin\models\searchs;
+namespace apaoww\AdminRedis\models\searchs;
 
 use Yii;
 use yii\base\Model;

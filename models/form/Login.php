@@ -1,6 +1,6 @@
 <?php
 
-namespace mdm\admin\models\form;
+namespace apaoww\AdminRedis\models\form;
 
 use Yii;
 use yii\base\Model;
