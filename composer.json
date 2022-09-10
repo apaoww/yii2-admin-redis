@@ -1,17 +1,17 @@
 {
-    "name": "mdmsoft/yii2-admin",
-    "description": "RBAC Auth manager for Yii2 ",
+    "name": "apaoww/yii2-admin-redis",
+    "description": "RBAC Auth manager for Yii2 Redis RBAC ",
     "keywords": ["yii", "admin", "auth", "rbac"],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/mdmsoft/yii2-admin/issues",
-        "source": "https://github.com/mdmsoft/yii2-admin"
+        "issues": "https://github.com/apaoww/yii2-admin-redis/issues",
+        "source": "https://github.com/apaoww/yii2-admin-redis"
     },
     "authors": [
         {
-            "name": "Misbahul Munir",
-            "email": "misbahuldmunir@gmail.com"
+            "name": "Apa Oww",
+            "email": "apa.oww@gmail.com"
         }
     ],
     "minimum-stability": "dev",
