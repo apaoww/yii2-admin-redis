@@ -7,7 +7,7 @@ use yii\base\Model;
 use yii\data\ActiveDataProvider;
 
 /**
- * User represents the model behind the search form about `mdm\admin\models\User`.
+ * User represents the model behind the search form about `apaoww\AdminRedis\models\User`.
  */
 class User extends Model
 {
@@ -37,7 +37,7 @@ class User extends Model
     public function search($params)
     {
         /* @var $query \yii\db\ActiveQuery */
-        $class = Yii::$app->getUser()->identityClass ? : 'mdm\admin\models\User';
+        $class = Yii::$app->getUser()->identityClass ? : 'apaoww\AdminRedis\models\User';
         $query = $class::find();
 
         $dataProvider = new ActiveDataProvider([

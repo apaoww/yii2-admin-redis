@@ -3,12 +3,12 @@
 namespace apaoww\AdminRedis\controllers;
 
 use Yii;
-use mdm\admin\models\Menu;
-use mdm\admin\models\searchs\Menu as MenuSearch;
+use apaoww\AdminRedis\models\Menu;
+use apaoww\AdminRedis\models\searchs\Menu as MenuSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use mdm\admin\components\Helper;
+use apaoww\AdminRedis\components\Helper;
 
 /**
  * MenuController implements the CRUD actions for Menu model.

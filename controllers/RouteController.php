@@ -3,7 +3,7 @@
 namespace apaoww\AdminRedis\controllers;
 
 use Yii;
-use mdm\admin\models\Route;
+use apaoww\AdminRedis\models\Route;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 

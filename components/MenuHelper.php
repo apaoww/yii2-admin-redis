@@ -4,14 +4,14 @@ namespace apaoww\AdminRedis\components;
 
 use Yii;
 use yii\caching\TagDependency;
-use mdm\admin\models\Menu;
+use apaoww\AdminRedis\models\Menu;
 
 /**
  * MenuHelper used to generate menu depend of user role.
  * Usage
  * 
  * ```
- * use mdm\admin\components\MenuHelper;
+ * use apaoww\AdminRedis\components\MenuHelper;
  * use yii\bootstrap\Nav;
  *
  * echo Nav::widget([

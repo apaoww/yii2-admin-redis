@@ -2,14 +2,14 @@
 
 namespace apaoww\AdminRedis\controllers;
 
-use mdm\admin\components\UserStatus;
-use mdm\admin\models\form\ChangePassword;
-use mdm\admin\models\form\Login;
-use mdm\admin\models\form\PasswordResetRequest;
-use mdm\admin\models\form\ResetPassword;
-use mdm\admin\models\form\Signup;
-use mdm\admin\models\searchs\User as UserSearch;
-use mdm\admin\models\User;
+use apaoww\AdminRedis\components\UserStatus;
+use apaoww\AdminRedis\models\form\ChangePassword;
+use apaoww\AdminRedis\models\form\Login;
+use apaoww\AdminRedis\models\form\PasswordResetRequest;
+use apaoww\AdminRedis\models\form\ResetPassword;
+use apaoww\AdminRedis\models\form\Signup;
+use apaoww\AdminRedis\models\searchs\User as UserSearch;
+use apaoww\AdminRedis\models\User;
 use Yii;
 use yii\base\InvalidParamException;
 use yii\base\UserException;

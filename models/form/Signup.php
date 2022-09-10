@@ -1,8 +1,8 @@
 <?php
 namespace apaoww\AdminRedis\models\form;
 
-use mdm\admin\components\UserStatus;
-use mdm\admin\models\User;
+use apaoww\AdminRedis\components\UserStatus;
+use apaoww\AdminRedis\models\User;
 use Yii;
 use yii\base\Model;
 use yii\helpers\ArrayHelper;
@@ -22,7 +22,7 @@ class Signup extends Model
      */
     public function rules()
     {
-        $class = Yii::$app->getUser()->identityClass ? : 'mdm\admin\models\User';
+        $class = Yii::$app->getUser()->identityClass ? : 'apaoww\AdminRedis\models\User';
         return [
             ['username', 'filter', 'filter' => 'trim'],
             ['username', 'required'],
@@ -50,7 +50,7 @@ class Signup extends Model
     public function signup()
     {
         if ($this->validate()) {
-            $class = Yii::$app->getUser()->identityClass ? : 'mdm\admin\models\User';
+            $class = Yii::$app->getUser()->identityClass ? : 'apaoww\AdminRedis\models\User';
             $user = new $class();
             $user->username = $this->username;
             $user->email = $this->email;

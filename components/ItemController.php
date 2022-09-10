@@ -3,8 +3,8 @@
 namespace apaoww\AdminRedis\components;
 
 use Yii;
-use mdm\admin\models\AuthItem;
-use mdm\admin\models\searchs\AuthItem as AuthItemSearch;
+use apaoww\AdminRedis\models\AuthItem;
+use apaoww\AdminRedis\models\searchs\AuthItem as AuthItemSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\base\NotSupportedException;

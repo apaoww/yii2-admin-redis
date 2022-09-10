@@ -2,7 +2,7 @@
 
 namespace apaoww\AdminRedis\components;
 
-use mdm\admin\models\Route;
+use apaoww\AdminRedis\models\Route;
 use Yii;
 use yii\caching\TagDependency;
 use yii\helpers\ArrayHelper;

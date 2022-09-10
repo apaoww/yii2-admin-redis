@@ -3,7 +3,7 @@
 namespace apaoww\AdminRedis\models\form;
 
 use Yii;
-use mdm\admin\models\User;
+use apaoww\AdminRedis\models\User;
 use yii\base\Model;
 
 /**

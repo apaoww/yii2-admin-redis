@@ -2,8 +2,8 @@
 
 namespace apaoww\AdminRedis\models;
 
-use mdm\admin\components\Configs;
-use mdm\admin\components\UserStatus;
+use apaoww\AdminRedis\components\Configs;
+use apaoww\AdminRedis\components\UserStatus;
 use Yii;
 use yii\base\NotSupportedException;
 use yii\behaviors\TimestampBehavior;

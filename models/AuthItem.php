@@ -2,10 +2,10 @@
 
 namespace apaoww\AdminRedis\models;
 
-use mdm\admin\components\Configs;
-use mdm\admin\components\Helper;
-use mdm\admin\controllers\AssignmentController;
-use mdm\admin\Module;
+use apaoww\AdminRedis\components\Configs;
+use apaoww\AdminRedis\components\Helper;
+use apaoww\AdminRedis\controllers\AssignmentController;
+use apaoww\AdminRedis\Module;
 use Yii;
 use yii\base\Model;
 use yii\helpers\Json;

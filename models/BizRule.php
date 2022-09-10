@@ -4,7 +4,7 @@ namespace apaoww\AdminRedis\models;
 
 use Yii;
 use yii\rbac\Rule;
-use mdm\admin\components\Configs;
+use apaoww\AdminRedis\components\Configs;
 
 /**
  * BizRule

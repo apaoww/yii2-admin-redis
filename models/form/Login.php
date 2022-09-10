@@ -4,7 +4,7 @@ namespace apaoww\AdminRedis\models\form;
 
 use Yii;
 use yii\base\Model;
-use mdm\admin\models\User;
+use apaoww\AdminRedis\models\User;
 
 /**
  * Login form
@@ -71,7 +71,7 @@ class Login extends Model
     public function getUser()
     {
         if ($this->_user === false) {
-            $class = Yii::$app->getUser()->identityClass ? : 'mdm\admin\models\User';
+            $class = Yii::$app->getUser()->identityClass ? : 'apaoww\AdminRedis\models\User';
             $this->_user = $class::findByUsername($this->username);
         }
 

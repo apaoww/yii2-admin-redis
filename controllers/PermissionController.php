@@ -2,7 +2,7 @@
 
 namespace apaoww\AdminRedis\controllers;
 
-use mdm\admin\components\ItemController;
+use apaoww\AdminRedis\components\ItemController;
 use yii\rbac\Item;
 
 /**

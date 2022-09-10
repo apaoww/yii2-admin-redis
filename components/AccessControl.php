@@ -18,7 +18,7 @@ use yii\di\Instance;
  *
  * ```
  * 'as access' => [
- *     'class' => 'mdm\admin\components\AccessControl',
+ *     'class' => 'apaoww\AdminRedis\components\AccessControl',
  *     'allowActions' => ['site/login', 'site/error']
  * ]
  * ```

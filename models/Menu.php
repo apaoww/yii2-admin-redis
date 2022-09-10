@@ -3,7 +3,7 @@
 namespace apaoww\AdminRedis\models;
 
 use Yii;
-use mdm\admin\components\Configs;
+use apaoww\AdminRedis\components\Configs;
 use yii\db\Query;
 
 /**

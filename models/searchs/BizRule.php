@@ -5,9 +5,9 @@ namespace apaoww\AdminRedis\models\searchs;
 use Yii;
 use yii\base\Model;
 use yii\data\ArrayDataProvider;
-use mdm\admin\models\BizRule as MBizRule;
-use mdm\admin\components\RouteRule;
-use mdm\admin\components\Configs;
+use apaoww\AdminRedis\models\BizRule as MBizRule;
+use apaoww\AdminRedis\components\RouteRule;
+use apaoww\AdminRedis\components\Configs;
 
 /**
  * Description of BizRule

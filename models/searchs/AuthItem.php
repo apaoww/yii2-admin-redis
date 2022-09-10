@@ -5,7 +5,7 @@ namespace apaoww\AdminRedis\models\searchs;
 use Yii;
 use yii\base\Model;
 use yii\data\ArrayDataProvider;
-use mdm\admin\components\Configs;
+use apaoww\AdminRedis\components\Configs;
 use yii\rbac\Item;
 
 /**
