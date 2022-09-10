@@ -1,4 +1,4 @@
-RBAC Manager for Yii 2
+RBAC Manager for Yii 2 - Customize to User Redis as database to store Auth data
 ======================
 GUI manager for RBAC (Role Base Access Control) Yii2. Easy to manage authorization of user :smile:.
 
