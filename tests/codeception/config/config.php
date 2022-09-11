@@ -40,7 +40,7 @@ return [
                 'rbac-admin' => [
                     'class' => 'yii\i18n\PhpMessageSource',
                     'sourceLanguage' => 'en',
-                    'basePath' => '@mdm/admin/messages'
+                    'basePath' => '@apaoww/AdminRedis/messages'
                 ]
             ]
         ]
