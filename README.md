@@ -63,8 +63,8 @@ In your application config, add the path alias for this extension.
 return [
     ...
     'aliases' => [
-        '@mdm/admin' => 'path/to/your/extracted',
-        // for example: '@mdm/admin' => '@app/extensions/mdm/yii2-admin-2.0.0',
+        '@apaoww/AdminRedis' => 'path/to/your/extracted',
+        // for example: '@apaoww/AdminRedis' => '@app/extensions/mdm/yii2-admin-2.0.0',
         ...
     ]
 ];

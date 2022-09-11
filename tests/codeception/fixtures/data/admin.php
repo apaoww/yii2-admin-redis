@@ -6,8 +6,8 @@ use apaoww\AdminRedis\components\Configs;
 
 $migrations = [
     'm140506_102106_rbac_init' => '@yii/rbac/migrations',
-    'm140602_111327_create_menu_table' => '@mdm/admin/migrations',
-    'm160312_050000_create_user' => '@mdm/admin/migrations',
+    'm140602_111327_create_menu_table' => '@apaoww/AdminRedis/migrations',
+    'm160312_050000_create_user' => '@apaoww/AdminRedis/migrations',
 ];
 
 $command = $this->db->createCommand();

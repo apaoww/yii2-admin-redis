@@ -22,7 +22,7 @@ if ($page == 'README.md') {
         $url = Url::to($menu['url'], true);
         $links[] = "[**{$menu['label']}**]({$url})";
     }
-    $body = str_replace(':smile:.', ".\n\n" . implode('  ', $links) . "\n", file_get_contents(Url::to('@mdm/admin/README.md')));
+    $body = str_replace(':smile:.', ".\n\n" . implode('  ', $links) . "\n", file_get_contents(Url::to('@apaoww/AdminRedis/README.md')));
 } elseif(preg_match('/^docs\/guide\/[\w-]+\.md$/', $page)) {
     $body = file_get_contents(Url::to("@mdm/admin/{$page}"));
 } else{

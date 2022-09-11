@@ -8,7 +8,7 @@ return [
     'vendorPath' => dirname(dirname(dirname(__DIR__))) . '/vendor',
     'language' => 'en-US',
     'aliases' => [
-        '@mdm/admin' => dirname(dirname(dirname(__DIR__))),
+        '@apaoww/AdminRedis' => dirname(dirname(dirname(__DIR__))),
     ],
     'modules' => [
         'admin' => [
