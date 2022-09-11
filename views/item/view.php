@@ -1,8 +1,8 @@
 <?php
 
-use mdm\admin\AnimateAsset;
-use mdm\admin\components\ItemController;
-use mdm\admin\models\AuthItem;
+use apaoww\AdminRedis\AnimateAsset;
+use apaoww\AdminRedis\components\ItemController;
+use apaoww\AdminRedis\models\AuthItem;
 use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\helpers\Url;

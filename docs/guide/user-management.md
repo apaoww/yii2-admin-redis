@@ -11,7 +11,7 @@ Then, change config of user component
     'components' => [
         ...
         'user' => [
-            'identityClass' => 'mdm\admin\models\User',
+            'identityClass' => 'apaoww\AdminRedis\models\User',
             'loginUrl' => ['admin/user/login'],
         ]
     ]

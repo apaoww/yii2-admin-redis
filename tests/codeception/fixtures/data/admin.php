@@ -1,6 +1,6 @@
 <?php
 
-use mdm\admin\components\Configs;
+use apaoww\AdminRedis\components\Configs;
 
 /* @var $this tests\codeception\fixtures\AdminFixture */
 

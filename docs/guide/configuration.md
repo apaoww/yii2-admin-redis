@@ -7,7 +7,7 @@ Once the extension is installed, simply modify your application configuration as
 return [
     'modules' => [
         'admin' => [
-            'class' => 'mdm\admin\Module',
+            'class' => 'apaoww\AdminRedis\Module',
             ...
         ]
         ...
@@ -20,7 +20,7 @@ return [
         ]
     ],
     'as access' => [
-        'class' => 'mdm\admin\components\AccessControl',
+        'class' => 'apaoww\AdminRedis\components\AccessControl',
         'allowActions' => [
             'site/*',
             'admin/*',
@@ -69,7 +69,7 @@ To do that, change them via `controllerMap` property. For example:
             ...
             'controllerMap' => [
                  'assignment' => [
-                    'class' => 'mdm\admin\controllers\AssignmentController',
+                    'class' => 'apaoww\AdminRedis\controllers\AssignmentController',
                     /* 'userClassName' => 'app\models\User', */
                     'idField' => 'user_id',
                     'usernameField' => 'username',
