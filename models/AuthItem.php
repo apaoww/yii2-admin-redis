@@ -301,7 +301,6 @@ class AuthItem extends Model
                 ]
             ]);
             $users = $class::find()
-                    ->select(['id' => $idField, 'username' => $usernameField])
                     ->where([$idField => $provider->getModels()])
                     ->asArray()->all();
 
