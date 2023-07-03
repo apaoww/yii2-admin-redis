@@ -55,8 +55,8 @@ class User extends Model
             'status' => $this->status,
         ]);
 
-        $query->andFilterWhere(['like', 'username', $this->username])
-            ->andFilterWhere(['like', 'email', $this->email]);
+        $query->andFilterWhere(['username'=>$this->username])
+            ->andFilterWhere(['email'=>$this->email]);
 
         return $dataProvider;
     }
